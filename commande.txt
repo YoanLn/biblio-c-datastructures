@@ -1,0 +1,10 @@
+# Set terminal and output settings
+set term postscript portrait
+set output "courbes_vitesse.ps"
+
+# Plot the first data set (Algo1)
+plot "sortie_vitesse.txt" using 1:2 title 'Liste' with lines
+
+# Plot the second data set (Algo2)
+replot "sortie_vitesse.txt" using 1:3 title 'Table de hachage' with lines
+

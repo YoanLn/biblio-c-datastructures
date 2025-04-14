@@ -1,0 +1,58 @@
+# Fichiers objets et binaires
+*.o
+*.ko
+*.obj
+*.elf
+*.ilk
+*.map
+*.exp
+*.gch
+*.pch
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.la
+*.lo
+*.lib
+*.exe
+
+# Exécutables spécifiques au projet
+main
+mainH
+main_exo3
+jeuDeTest
+
+# Répertoires générés
+obj/
+bin/
+
+# Fichiers de sortie et logs
+sortie_vitesse.txt
+*.log
+
+# Fichiers de compilation et d'édition
+*.dSYM/
+*.su
+*.idb
+*.pdb
+.dep/
+.vs/
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Fichiers temporaires
+*.tmp
+*.temp
+
+# Fichiers de configuration spécifiques à l'utilisateur
+*.user
+*.suo
+*.sln.docstates
+
+# Fichiers de sauvegarde
+*.bak
+*.orig 
